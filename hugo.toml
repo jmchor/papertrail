@@ -24,7 +24,7 @@ author = "Me"
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
 DateFormat = "January 2, 2006"
 defaultTheme = "auto"
-disableThemeToggle = false
+disableThemeToggle = true
 ShowReadingTime = true
 ShowShareButtons = true
 ShowPostNavLinks = true
@@ -50,7 +50,7 @@ tocopen = false
 
   [params.label]
   text = "Home"
-  icon = "/apple-touch-icon.png"
+  icon = "img/logo-black.png"
   iconHeight = 35
 
   [params.profileMode]
@@ -128,3 +128,42 @@ weight = 30
 
 [markup.highlight]
 noClasses = false
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      linkifyProtocol = 'https'
+      strikethrough = true
+      table = true
+      taskList = true
+      [markup.goldmark.extensions.cjk]
+        eastAsianLineBreaks = false
+        enable = false
+        escapedSpace = false
+      [markup.goldmark.extensions.typographer]
+        apostrophe = '&rsquo;'
+        disable = false
+        ellipsis = '&hellip;'
+        emDash = '&mdash;'
+        enDash = '&ndash;'
+        leftAngleQuote = '&laquo;'
+        leftDoubleQuote = '&ldquo;'
+        leftSingleQuote = '&lsquo;'
+        rightAngleQuote = '&raquo;'
+        rightDoubleQuote = '&rdquo;'
+        rightSingleQuote = '&rsquo;'
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = 'github'
+      wrapStandAloneImageWithinParagraph = true
+      [markup.goldmark.parser.attribute]
+        block = false
+        title = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
