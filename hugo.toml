@@ -121,9 +121,9 @@ url = "/tags/"
 weight = 20
 
 [[menu.main]]
-identifier = "example"
-name = "example.org"
-url = "https://example.org"
+identifier = "portfolio"
+name = "portfolio"
+url = "https://jmchor.dev"
 weight = 30
 
 [markup.highlight]
