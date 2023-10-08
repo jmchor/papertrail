@@ -88,6 +88,7 @@
 }
 
 .entry-cover {
+	display: flex;
 	margin-bottom: var(--gap);
 	text-align: center;
 }
