@@ -408,3 +408,16 @@ img.in-text {
 	width: 100%;
 	height: auto;
 }
+
+.post-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.post-image img {
+	width: fit-content;
+	margin: 0;
+}
