@@ -1,0 +1,27 @@
+{{- define "main" }}
+
+<header class="page-header">
+    <h1>
+        {{ .Title }}
+
+    </h1>
+    {{- if .Description }}
+    <div class="post-description">
+        {{ .Description }}
+    </div>
+    {{- end }}
+</header>
+
+
+
+
+<div class="entry-content">
+    <!-- {{ .Content | markdownify }} -->
+    {{ partial "abouttext.html" .}}
+</div>
+<footer class="entry-footer">
+    <!-- {{ partial "social_icons.html" site.Params.socialIcons }} -->
+
+</footer>
+
+{{- end }}{{/* end main */ -}}
