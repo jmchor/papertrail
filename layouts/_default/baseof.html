@@ -10,10 +10,7 @@
 {{- print " list" -}} {{- end -}} {{- if eq site.Params.defaultTheme `dark` -}} {{- print " dark" }} {{- end -}} " id="
         top">
         {{- partialCached "header.html" . .Page -}}
-        <div>
-            <img id="title-image" src="img/cover.jpg" alt="title image of a trail">
 
-        </div>
         <main class="main">
             {{- block "main" . }}{{ end }}
         </main>
