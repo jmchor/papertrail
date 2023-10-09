@@ -2,7 +2,7 @@
 	--gap: 24px;
 	--content-gap: 20px;
 	--nav-width: 1024px;
-	--main-width: 720px;
+	--main-width: 920px;
 	--header-height: 60px;
 	--footer-height: 60px;
 	--radius: 8px;
@@ -40,4 +40,58 @@
 
 #title-image {
 	max-width: 100%;
+}
+
+@font-face {
+	font-family: 'Work Sans';
+	src: local('Work Sans Italic'), local('WorkSans-Italic'), url('WorkSans-Italic.woff2') format('woff2'),
+		url('WorkSans-Italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Work Sans';
+	src: local('Work Sans Thin'), local('WorkSans-Thin'), url('WorkSans-Thin.woff2') format('woff2'),
+		url('WorkSans-Thin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Work Sans';
+	src: local('Work Sans Bold'), local('WorkSans-Bold'), url('WorkSans-Bold.woff2') format('woff2'),
+		url('WorkSans-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Work Sans';
+	src: local('Work Sans Regular'), local('WorkSans-Regular'), url('WorkSans-Regular.woff2') format('woff2'),
+		url('WorkSans-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Work Sans';
+	src: local('Work Sans Black'), local('WorkSans-Black'), url('WorkSans-Black.woff2') format('woff2'),
+		url('WorkSans-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Work Sans';
+	src: local('Work Sans Light'), local('WorkSans-Light'), url('WorkSans-Light.woff2') format('woff2'),
+		url('WorkSans-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
 }
