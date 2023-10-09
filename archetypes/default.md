@@ -12,7 +12,7 @@ ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 
 [cover]
-image = "cover.jpg"
+image = "img/cover.png"
 alt = "<alt text>"
 caption = "<text>"
 relative = false
