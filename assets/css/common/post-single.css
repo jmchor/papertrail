@@ -211,9 +211,11 @@
 }
 
 .post-content blockquote {
-	margin: 20px 0;
-	padding: 0 14px;
-	border-inline-start: 3px solid var(--primary);
+	margin: 60px 20px;
+	padding: 0 15px;
+	border-inline-start: 2px solid var(--primary);
+	background-color: #f9f9f9;
+	font-style: italic;
 }
 
 .post-content hr {
@@ -414,7 +416,7 @@ img.in-text {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	padding: 20px;
+	padding: 40px 20px;
 }
 
 .post-image img {
