@@ -37,3 +37,7 @@
 .dark.list {
 	background: var(--theme);
 }
+
+#title-image {
+	max-width: 100%;
+}
