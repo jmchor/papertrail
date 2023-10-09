@@ -92,10 +92,6 @@ tocopen = false
   hiddenInList = false
   hiddenInSingle = false
 
-  [params.editPost]
-  URL = "https://github.com/<path_to_repo>/content"
-  Text = "Suggest Changes"
-  appendFilePath = true
 
   [params.fuseOpts]
   isCaseSensitive = false
