@@ -4,10 +4,12 @@
         <h1>{{ .Title | markdownify }}</h1>
     </header>
     <div class="entry-content">
-        {{ .Content | markdownify }}
+        <!-- {{ .Content | markdownify }} -->
+        {{ partial "infotext.html" .}}
     </div>
     <footer class="entry-footer">
         <!-- {{ partial "social_icons.html" site.Params.socialIcons }} -->
+        <hr>
     </footer>
 </article>
 {{- end -}}
