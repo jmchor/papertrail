@@ -106,25 +106,35 @@ tocopen = false
   minMatchCharLength = 0
   keys = [ "title", "permalink", "summary", "content" ]
 
-
+[[menu.main]]
+identifier = "about"
+name = "about"
+url = "/about/"
+weight = 10
 
 [[menu.main]]
 identifier = "categories"
 name = "categories"
 url = "/categories/"
-weight = 10
+weight = 20
 
 [[menu.main]]
 identifier = "tags"
 name = "tags"
 url = "/tags/"
-weight = 20
+weight = 30
+
+[[menu.main]]
+identifier = "archives"
+name = "archives"
+url = "/archives/"
+weight = 40
 
 [[menu.main]]
 identifier = "portfolio"
 name = "portfolio"
 url = "https://jmchor.dev"
-weight = 30
+weight = 50
 
 [markup.highlight]
 noClasses = false
