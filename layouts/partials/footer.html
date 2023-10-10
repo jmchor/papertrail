@@ -18,6 +18,13 @@
 </footer>
 {{- end }}
 
+<button id="back-to-top" class="btn btn-primary" style="display: none;">
+    ^
+    <br>
+
+    Back to top
+</button>
+
 {{- if (not site.Params.disableScrollToTop) }}
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
@@ -29,6 +36,27 @@
 {{- partial "extend_footer.html" . }}
 
 <script>
+    // Wait for the document to be fully loaded
+    document.addEventListener('DOMContentLoaded', function () {
+        var backToTopButton = document.getElementById('back-to-top');
+
+        // Show or hide the button based on the scroll position
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > 100) { // Adjust this value to determine when to show the button
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+
+        // Scroll to the top of the page when the button is clicked
+        backToTopButton.addEventListener('click', function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    });
+</script>
+
+<!-- <script>
     let menu = document.getElementById('menu')
     if (menu) {
         menu.scrollLeft = localStorage.getItem("menu-scroll-position");
@@ -72,7 +100,7 @@
     };
 
 </script>
-{{- end }}
+{{- end }} -->
 
 {{- if (not site.Params.disableThemeToggle) }}
 <script>
