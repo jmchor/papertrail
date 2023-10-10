@@ -15,9 +15,10 @@
 
 
 
-<div class="entry-content">
+<div class="post-content">
     <!-- {{ .Content | markdownify }} -->
-    {{ partial "abouttext.html" .}}
+    {{ .Content }}
+
 </div>
 <footer class="entry-footer">
     <!-- {{ partial "social_icons.html" site.Params.socialIcons }} -->
