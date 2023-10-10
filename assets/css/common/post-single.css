@@ -36,6 +36,10 @@
 	color: var(--content);
 }
 
+.post-content h2:first-of-type {
+	margin-bottom: 3rem;
+}
+
 .post-content h3,
 .post-content h4,
 .post-content h5,
@@ -49,12 +53,13 @@
 }
 
 .post-content h2 {
-	margin: 32px auto 24px;
+	margin: 6rem auto 24px;
 	font-size: 32px;
 }
 
 .post-content h3 {
 	font-size: 24px;
+	margin: 60px auto 16px;
 }
 
 .post-content h4 {
@@ -214,7 +219,7 @@
 	margin: 60px 20px;
 	padding: 0 15px;
 	border-inline-start: 2px solid var(--primary);
-	background-color: #f9f9f9;
+
 	font-style: italic;
 }
 
@@ -253,6 +258,17 @@
 	color: var(--secondary);
 	font-size: 14px;
 	font-weight: normal;
+}
+
+.post-content aside {
+	padding: 1rem 6rem 1.25rem;
+	font-style: italic;
+	text-align: center;
+	font-size: 1.8rem;
+	color: #8695a4;
+	font-weight: 400;
+	line-height: 1.5em;
+	word-break: break-word;
 }
 
 .toc {
@@ -422,4 +438,24 @@ img.in-text {
 .post-image img {
 	width: fit-content;
 	margin: 0;
+}
+
+.buttonstyle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 40px 20px;
+}
+
+.buttonstyle a {
+	box-shadow: none;
+	color: white;
+	background-color: black;
+	padding: 10px 20px;
+}
+.buttonstyle a:hover {
+	/* grow in size */
+	transition: 0.2s ease-in-out;
+	transform: scale(1.03);
 }
