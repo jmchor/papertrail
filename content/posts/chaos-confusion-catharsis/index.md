@@ -1,7 +1,7 @@
 +++
 title = 'Chaos and Confusion and also Catharsis (and a cat.)'
 date = 2022-06-14T13:33:09+02:00
-draft = true
+draft = false
 tags = [ "" ]
 author = "jmchor"
 ShowReadingTime = true

@@ -1,7 +1,7 @@
 +++
 title = 'Wordpress Mania'
 date = 2022-11-03T07:14:57+02:00
-draft = true
+draft = false
 tags = [ "wordpress", "coding" ]
 author = "jmchor"
 ShowReadingTime = true

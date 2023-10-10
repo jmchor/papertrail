@@ -1,7 +1,7 @@
 +++
 title = 'Ghost in the S̶h̶e̶l̶l̶ internet connection?'
 date = 2022-11-19T13:30:42+02:00
-draft = true
+draft = false
 tags = [ "internet", "linux" ]
 author = "jmchor"
 ShowReadingTime = true

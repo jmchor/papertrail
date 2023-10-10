@@ -2,7 +2,7 @@
 title = "Live like you give a damn."
 slug = "giving-a-damn"
 date = 2023-01-22T07:15:14+02:00
-draft = true
+draft = false
 tags = ["veganism", "animal rights", "ethics"]
 categories = ["veganism"]
 author = "jmchor"

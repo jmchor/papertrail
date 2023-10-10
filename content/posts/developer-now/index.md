@@ -1,7 +1,7 @@
 +++
 title = "I'm the Developer Now"
 date = 2023-07-01T11:16:07+02:00
-draft = true
+draft = false
 tags = [ "React", "Javascript", "coding" ]
 author = "jmchor"
 ShowReadingTime = true

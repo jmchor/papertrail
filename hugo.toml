@@ -4,7 +4,7 @@ title = 'papertrail'
 
 baseURL = "https://papertrail.jmchor.dev/"
 
-paginate = 4
+paginate = 8
 theme = "PaperMod"
 enableRobotsTXT = true
 buildDrafts = false

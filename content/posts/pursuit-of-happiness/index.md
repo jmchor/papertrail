@@ -1,7 +1,7 @@
 +++
 title = 'The pursuit of happiness'
 date = 2023-07-05T10:24:15+02:00
-draft = true
+draft = false
 tags = [ "happiness", "self-help" ]
 author = "jmchor"
 ShowReadingTime = true
