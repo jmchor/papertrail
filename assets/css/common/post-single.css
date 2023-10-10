@@ -435,6 +435,12 @@ img.in-text {
 	padding: 40px 20px;
 }
 
+.post-image sup {
+	font-size: 0.8em;
+	text-align: center;
+	width: 60%;
+}
+
 .post-image img {
 	width: fit-content;
 	margin: 0;
@@ -458,4 +464,9 @@ img.in-text {
 	/* grow in size */
 	transition: 0.2s ease-in-out;
 	transform: scale(1.03);
+}
+
+img.small {
+	width: 200px;
+	margin-bottom: 10px;
 }
