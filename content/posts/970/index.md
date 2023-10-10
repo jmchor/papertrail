@@ -2,7 +2,7 @@
 title = '970 more to go'
 date = 2022-11-29T15:08:07+02:00
 draft = true
-tags = [ "" ]
+tags = [ "javascript", "coding", "first" ]
 author = "jmchor"
 ShowReadingTime = true
 ShowBreadCrumbs = true
