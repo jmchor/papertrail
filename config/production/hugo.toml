@@ -18,7 +18,7 @@ minifyOutput = true
 
 [params]
 env = "production"
-description = "ExampleSite description"
+description = "a personal blog"
 keywords = [ "Blog", "Portfolio", "PaperMod" ]
 author = "jmchor"
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
