@@ -240,7 +240,7 @@ Winter break will be the only such break we will have during the rest of the boo
 
 So, first of all: I switched over to counting weeks. It's very confusing to enumerate the days because I have three Ironhack days per week - I just lose track. I decided to group the experience in time units rather than content - I'll try to make sense of it while I write, I promise!
 
-Most of this week's work was on ****methods** **- more specifically, on the probably most helpful array methods .map(), .reduce(), .filter(), .sort() and .reverse(). And it was about working with Objects (well, again, I should say) - because working with Objects in Object Oriented Programming is kind of mandatory, I should think.
+Most of this week's work was on **methods** - more specifically, on the probably most helpful array methods .map(), .reduce(), .filter(), .sort() and .reverse(). And it was about working with Objects (well, again, I should say) - because working with Objects in Object Oriented Programming is kind of mandatory, I should think.
 
 My own method of approach is to do the "homework", the labs, before the material is covered in class. Thanks to my months of prepwork I understand the documentation that's given to us and can work on the labs beforehand, and if there is ever a problem I don't understand or something I don't grasp completely, I can still wait for class and see if it won't be cleared up then. And if necessary, THEN I can ask questions.
 
@@ -249,9 +249,9 @@ So I went through the doc material and little exercises on the most prevalent me
 <div class="post-image"><iframe src="https://giphy.com/embed/720g7C1jz13wI" width="480" height="333" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/harry-potter-idk-shrug-720g7C1jz13wI"></a></p>
 </div>
 
-> (and that's just me personally, though I'm sure others are similar) need a problem presented in English (I mean, I will present that to myself in my own head), it helps to have lore - and I need to put the code into a little project to understand what it does and why it does it. And then I understand the fundamentals. And that is important to me.
+> I (and that's just me personally, though I'm sure others are similar) need a problem presented in English (I mean, I will present that to myself in my own head), it helps to have lore - and I need to put the code into a little project to understand what it does and why it does that. And then I understand the fundamentals. And that is important to me.
 
-#### Manipulating Space and Time
+### Manipulating Space and Time
 
 Since the third day of every Ironhack Week is a long day, we split it up pretty much into two parts. And you could see it from the perspective of preparing you for the labs, but also preparing you for being able to talk about coding - interview questions and such.
 
@@ -301,7 +301,7 @@ The lab we worked on to deepen our understanding of the DOM had to do with a sho
 
 By no means I'm saying that with one exercise, some reading material and a speedy talking through we are now all Masters of the DOM - but with these use-cases and some examples of how to approach these problems we are given the tools to solve various problems.
 
-#### Drawing Conclusions
+### Drawing Conclusions
 
 The other extremely big part of this week's material was also something that I hadn't practiced that much before: the canvas. There is I think [one little project](https://youtu.be/8ZGAzJ0drl0) with JavaScript 30 where I first encountered the canvas-element, and was just baffled by all of it. I also never touched it after this brief encounter. Wish I had done more with it cause its ****so cool****!
 
