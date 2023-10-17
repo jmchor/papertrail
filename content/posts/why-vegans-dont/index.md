@@ -1,7 +1,7 @@
 +++
 title = "Why Vegans Don't .."
-date = 2023-10-10T09:37:06+02:00
-draft = true
+date = 2023-10-16T09:37:06+02:00
+draft = false
 tags = [ "veganism", "exploitation", "ethics" ]
 author = "jmchor"
 ShowReadingTime = true
@@ -12,7 +12,7 @@ ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 
 [cover]
-image = "img/cover.png"
+image = "img/cover.jpeg"
 alt = "<alt text>"
 caption = "<text>"
 relative = false
@@ -29,7 +29,7 @@ Some things in life aren't very nice - actually, a lot of things in life can ver
     <sup>Source @teepublic</sup>
 </div>
 
-And that is just obviously the case. Eating animals is not very nice to the animals, and as it turns out, to the one *doing the eating as well* (unless you are a carnivorous animal, which humans just aren't). I think it is pretty established that vegans do not eat animals or animal products - but herein also lies a bit of the **problem**. Most people in western society connect the term *veganism* **exclusively** with a specific diet, and vegans are people following a diet that is viewed (mostly by non-vegans, carnists and the "regular" people) as **restrictive** and "not fun". But that's it then - vegans are those people that don't eat animals and who get in your face when you do. No more, no less. And I'm starting to really get *sick* of that.
+And that is just obviously the case. Eating animals is not very nice to the animals, and as it turns out, to the one *doing the eating as well* (unless you are a carnivorous animal, which humans just aren't). I think it is pretty established that vegans do not eat animals or animal products - but herein also lies a bit of the **problem**. Most people in western society connect the term *veganism* **exclusively** to a specific diet, and vegans are people following a diet that is viewed (mostly by non-vegans, carnists and the "regular" people) as **restrictive** and "not fun". But that's it then - vegans are those people that don't eat animals and who get in your face when you do. No more, no less. And I'm starting to really get *sick* of that.
 
 ### From food preference to sociopolitical position
 
@@ -151,4 +151,6 @@ Being vegan means being aware - aware of the world around you and aware of the f
 
 And as for the fact that vegans seemingly don't shut up about veganism? Non-vegans never shut up about carnism. It's ubiquitous, and because it is the dominant culture worldwide, it's almost invisible, quiet, and thus all the more destructive.
 
-Vegans don't shut up about veganism because that is very likely what the animals would want us to do.
+Vegans **don't shut up** about veganism. We're **not silent** about the abuse and oppression.
+
+Because all animals probably wouldn't want us to.
