@@ -2,7 +2,7 @@
 title = 'Live and Let Live'
 date = 2023-10-12T09:27:13+02:00
 draft = true
-tags = [ "" ]
+tags = [ "veganism", "ethics", "carnism", "cognitive dissonance" ]
 author = "jmchor"
 ShowReadingTime = true
 ShowBreadCrumbs = true
@@ -19,3 +19,5 @@ relative = false
 hidden = false
 linkFullImages = true
 +++
+
+If I had a penny for every time I heard this sentence from someone defending behavior they know to be bad or, in the least, controversial - I'd have another penny and still be annoyed.
