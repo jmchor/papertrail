@@ -22,7 +22,7 @@ linkFullImages = true
 
 ### And how practicing mindfulness is something for everybody
 
-It just happens for the fraction of a moment, but it happens reliably: everytime I hear the word "meditation" or even just ****think**** it, my mind splits and holds two thoughts at once:
+It just happens for the fraction of a moment, but it happens reliably: everytime I hear the word "meditation" or even just **think** it, my mind splits and holds two thoughts at once:
 
 1.  Meditation is for buddhists, hippies, cult leaders from California and just a fringe thing that never works, and:
 2.  I'm in awe of anybody who can achieve a state of mindfulness, this is amazing and actually I can feel the benefit of it!
